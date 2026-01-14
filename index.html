@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deck Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="card" id="clock-card">
+            <div id="time">00:00</div>
+            <div id="date">Loading...</div>
+        </div>
+
+        <div class="card" id="weather-card">
+            <div id="weather-icon"><i class="fas fa-cloud"></i></div>
+            <div id="temperature">--°C</div>
+            <div id="condition">Loading...</div>
+        </div>
+
+        <div class="card" id="assistant-card">
+            <div class="wave-container" id="wave-container">
+                <div class="bar"></div><div class="bar"></div><div class="bar"></div><div class="bar"></div>
+            </div>
+            <p id="assistant-status">Say "Start Listening"</p>
+            <button id="mic-btn" onclick="toggleAssistant()"><i class="fas fa-microphone"></i></button>
+        </div>
+
+        <div class="card" id="calendar-card">
+            <div id="cal-month">Month</div>
+            <div class="cal-grid" id="cal-grid">
+                </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>

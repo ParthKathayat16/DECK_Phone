@@ -1,6 +1,6 @@
 // --- CONFIGURATION ---
 //  PASTE YOUR NEW KEY INSIDE THE QUOTES BELOW
-const API_KEY = "PAIzaSyBX0ErjKpgukDeYySeybzZyNWboP59dYfk"; 
+const API_KEY = "AIzaSyB1pulLX9S4vB8cajIWklIUoA9JcxLIv54"; 
 
 const LAT = 23.02; 
 const LON = 72.57; 
